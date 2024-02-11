@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 // Bringing in the required component from 'react-router-dom' for linking between pages
 import { Link } from 'react-router-dom';
 import Portfolio from '../components/UI/PortfolioSections/PortfolioTeaser';
-import ListItem from '../components/UI/ListItem';
+import CardItem from '../components/UI/CardItem';
 
 import API from '../utils/API';
 
@@ -25,7 +25,7 @@ export default function AboutMePage() {
     <div className="container pt-4">
       <ul className="list-group list-group">
         {projects.map((project) => (
-          <ListItem key={project.id}>
+          <CardItem key={project.id}>
             <Portfolio project={project} />
             {/* Link elements are anchors under-the-hood, but they allow the routing behavior to be controlled by the client rather than the server */}
             <Link
@@ -34,7 +34,7 @@ export default function AboutMePage() {
             >
               See More
             </Link>
-          </ListItem>
+          </CardItem>
         ))}
       </ul>
     </div>

@@ -1,11 +1,13 @@
-import CardAddress from './CardAddress';
-import CardCompany from './CardCompany';
+import CardImage from './CardImage';
+import CardText from './CardText';
+import CardLink from './CardLink';
 
-export default function CardBody({ company, address }) {
+export default function CardBody({ image, text, link }) {
   return (
-    <div className="card-body">
-      <CardCompany {...company} />
-      <CardAddress {...address} />
+    <div class="card">
+      <CardImage {...image} />
+      <CardText {...text} />
+      <CardLink {...link} />
     </div>
   );
 }
