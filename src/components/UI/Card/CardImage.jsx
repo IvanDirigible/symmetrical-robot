@@ -1,5 +1,5 @@
-export default function CardImage({ imageLink, altText }) {
+export default function CardImage({ link, altText }) {
   return (
-    <img class="card-img-top" src={imageLink} alt={altText} />
+    <img class="card-img-top" src={link} alt={altText} />
   );
 }

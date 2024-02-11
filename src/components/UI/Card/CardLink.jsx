@@ -1,8 +1,8 @@
-export default function CardLink({ linkRepo, linkDeployed }) {
+export default function CardLink({ repo, deployed }) {
   return (
     <>
-      <a href={linkRepo} class="btn btn-secondary">Go somewhere</a>
-      <a href={linkDeployed} class="btn btn-primary">Go somewhere</a>
+      <a href={repo} class="btn btn-secondary">Go somewhere</a>
+      <a href={deployed} class="btn btn-primary">Go somewhere</a>
     </>
   );
 }

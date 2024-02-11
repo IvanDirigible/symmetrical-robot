@@ -71,6 +71,10 @@ button:focus-visible {
   width: 100%;
 }
 
+.header {
+  background: 'lightgreen';
+  font-size: '50px';
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
