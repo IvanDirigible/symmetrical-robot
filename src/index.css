@@ -75,6 +75,15 @@ button:focus-visible {
   background: 'lightgreen';
   font-size: '50px';
 }
+
+.card {
+  max-width: 600px;
+}
+
+.card-img-overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
