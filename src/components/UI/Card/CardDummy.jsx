@@ -12,8 +12,9 @@
   style="max-width: 22rem;">
   <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp" class="w-100" alt="Louvre" />
   <a href="#!">
-    <div class="mask">
-      <img src="https://mdbcdn.b-cdn.net/img/new/fluid/city/114.webp" class="w-100" />
+    <div class="mask text-light d-flex justify-content-center flex-column text-center" style="background-color: rgba(0, 0, 0, 0.5)">
+      <h4><i class="fas fa-search-plus"></i></h4>
+      <p class="m-0">Show</p>
     </div>
   </a>
 </div>

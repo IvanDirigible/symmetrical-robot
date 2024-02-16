@@ -76,12 +76,73 @@ button:focus-visible {
   font-size: '50px';
 }
 
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  justify-content: center;
+  background: 'lightgreen';
+  font-size: '20px';
+}
+
 .card {
   max-width: 600px;
+  
+}
+
+.card:hover {
+  box-shadow: 0 40px 60px -20px rgba(12, 5, 62, 0.15);
+  z-index: 100;
+
+}
+
+.card-title:hover {
+  color: darkgreen;
+  /* font-size-adjust: calc(100% + 20px); */
+  font-size: 150%;
+  transition-duration: 1s;
+}
+
+.card-text:hover {
+  color: hotpink;
+  transition-duration: 1s;
 }
 
 .card-img-overlay {
-  background-color: rgba(0, 0, 0, 0.3);
+  background: linear-gradient(
+    45deg,
+    hsla(168, 85%, 52%, 0.5),
+    hsla(263, 88%, 45%, 0.5) 100%
+    );
+  /* animation: background 2s ease;
+  animation-fill-mode: forwards; */
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+.card-img-overlay:hover {
+  /* background: rgba(0, 0, 0, 0.0); */
+  opacity: 1;
+}
+
+.btn {
+  z-index: 9;
+}
+/* Not sure if mask is even necessary */
+.mask {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+  .flex {
+    height: auto;
+  }
 }
 
 @media (prefers-color-scheme: light) {

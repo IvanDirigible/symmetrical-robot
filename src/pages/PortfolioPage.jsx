@@ -7,30 +7,30 @@ export default function PortfolioPage() {
   const projects = [
     {
       image: {
-        link: "./src/assets/images/Kitten-Yarn.jpg",
-        altText: "It's a kitten"
+        link: "./src/assets/images/SVG-Logos.png",
+        altText: "SVG Logo Maker"
       },
       text: {
-        title: "Kitten App",
-        module: "React",
+        title: "SVG Logo Maker",
+        module: "Object-Oriented Programming",
       },
       link: {
-        repo: "https://github.com/IvanDirigible",
-        deployed: "https://cdn.shopify.com/s/files/1/0997/4496/articles/Do_kittens_shed_f9917858-b52f-4192-bf8e-4f46ed98e9aa.jpg?v=1698540349"
+        repo: "https://github.com/IvanDirigible/stunning-umbrella",
+        deployed: "https://ivandirigible.github.io/stunning-umbrella/"
       }
     },
     {
       image: {
-        link: "./src/assets/images/Kitten-Yarn.jpg",
-        altText: "It's a kitten"
+        link: "./src/assets/images/Trip-Planner.png",
+        altText: "Trip Planner App"
       },
       text: {
-        title: "Kitten App",
-        module: "React",
+        title: "Trip Planner",
+        module: "Group Project",
       },
       link: {
-        repo: "https://github.com/IvanDirigible",
-        deployed: "https://cdn.shopify.com/s/files/1/0997/4496/articles/Do_kittens_shed_f9917858-b52f-4192-bf8e-4f46ed98e9aa.jpg?v=1698540349"
+        repo: "https://github.com/C-Johnson83/trip_planner",
+        deployed: "https://c-johnson83.github.io/trip_planner/"
       }
     },
     {
@@ -49,12 +49,12 @@ export default function PortfolioPage() {
     },
   ];
   return (
-    <>
+    <div className="flex">
       {projects.map((project, index) => (
         <CardView key={index}>
           {project.text.title ? <Portfolio project={project} /> : <p>Loading...</p>}
         </CardView>
       ))}
-    </>
+    </div>
   );
 }
