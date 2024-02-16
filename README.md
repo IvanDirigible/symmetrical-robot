@@ -51,7 +51,7 @@ My portfolio includes an information about me, a selection of projects I've work
 ## Links
 
 GitHub Repository: https://github.com/IvanDirigible/symmetrical-robot
-Deployed Site: 
+Deployed Site: https://main--thriving-alpaca-d7315d.netlify.app/
 
 ## License
 This project is licensed under the MIT license.  
