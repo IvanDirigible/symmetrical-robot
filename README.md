@@ -46,7 +46,7 @@ While you can download or clone the repository from GitHub with the link below, 
 ## Features
 
 My portfolio includes an information about me, a selection of projects I've worked on, a page to contact me, and my resume listing my coding skills.
-![Image showing a selection of coding projects.](./src/assets/images/Example.png)
+![Image showing a selection of coding projects.](./public/assets/images/Example.png)
 
 ## Links
 

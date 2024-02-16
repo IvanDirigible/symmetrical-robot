@@ -2,7 +2,7 @@ export default function ProjectData() {
   const projects = [
     {
       image: {
-      link: "./src/assets/images/Kitten-Yarn.jpg",
+      link: "/assets/images/Kitten-Yarn.jpg",
       altText: "It's a kitten"
       },
       text: {
