@@ -7,7 +7,7 @@ export default function PortfolioPage() {
   const projects = [
     {
       image: {
-        link: "./src/assets/images/SVG-Logos.png",
+        link: "/assets/images/SVG-Logos.png",
         altText: "SVG Logo Maker"
       },
       text: {
@@ -21,7 +21,7 @@ export default function PortfolioPage() {
     },
     {
       image: {
-        link: "./src/assets/images/Trip-Planner.png",
+        link: "/assets/images/Trip-Planner.png",
         altText: "Trip Planner App"
       },
       text: {
@@ -35,7 +35,7 @@ export default function PortfolioPage() {
     },
     {
       image: {
-        link: "./src/assets/images/Kitten-Yarn.jpg",
+        link: "/assets/images/Kitten-Yarn.jpg",
         altText: "It's a kitten"
       },
       text: {
